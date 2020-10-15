@@ -47,7 +47,7 @@
     pointer-events: none;
 }
 
-.containerForm input[type="submit"] {
+.containerForm .containerFormButton {
 
     border: none;
     padding: 7px 35px;
@@ -59,7 +59,7 @@
     border-radius: 2px;
 }
 
-.containerForm input[type="submit"]:hover {
+.containerForm .containerFormButton:hover {
 filter: grayscale(1.2) invert(1);
 
 }
