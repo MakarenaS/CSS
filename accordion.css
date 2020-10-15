@@ -6,6 +6,10 @@
 
 }
 
+.accordion form {
+    width: 90vw;
+}
+
 .accordion .accordionContentBx {
     position: relative;
     margin: 20px;
