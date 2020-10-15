@@ -20,7 +20,7 @@
 }
 
 .listBox ul {
-border-radius: 50%;
+
     position: relative;
     background: var(--contrast-color);
 }
