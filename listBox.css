@@ -45,6 +45,12 @@
     opacity: 1;
 }
 
+.listBox ul li img {
+width:20px;
+height:20px;
+
+}
+
 .listBox ul li span {
     width: 20px;
     height: 20px;
