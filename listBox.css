@@ -26,10 +26,11 @@
 }
 
 .listBox ul li {
-
+    height: 3em;
+    font-size: 1.5em;
+    font-weight: 600;
     display: flex;
-justify-content: space-between;
-align-items:center;
+    align-items:center;
     list-style-type: none;
     padding: 10px;
     width: 100%;
@@ -50,8 +51,8 @@ align-items:center;
 }
 
 .listBox ul li img {
-width:20px;
-height:20px;
+width:2em;
+height:2em;
 
 }
 
@@ -76,4 +77,22 @@ height:20px;
 .listBox ul li:hover span {
     background: var(--contrast-color);
     color: var(--action-color);
+}
+
+.listBox ul li button {
+border: none;
+    padding: 7px 35px;
+    cursor: pointer;
+    outline: none;
+    background: var(--main-color);
+
+    font-size: 18px;
+    border-radius: 2px;
+
+}
+
+.listBox ul li button {
+text-decoration: none;
+    color: var(--contrast-color);
+
 }
